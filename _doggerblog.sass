@@ -1,0 +1,54 @@
+#doggerblog
+    h1
+        font-weight: 700
+        font-size: 35px
+    h3
+        font-size: 20px
+        margin: 30px 0 60px
+    .box
+        display: block
+        width: 350px
+        .textbox
+            margin: 20px 0
+            h2
+                font-size: 22px
+            h4
+                font-size: 18px
+                color: #aba8a8
+            p
+                font-size: 18px
+                color: #8f8686
+            p,h4
+                margin: 20px 0 0
+    .wid
+        width: 400px
+    .icon
+        color: #a2c0be
+        margin: 0 0 10px
+        i
+            font-size: 30px
+
+    @media screen and ( min-width: 768px )
+        .box
+            .textbox
+                margin: 0
+            .imgbox
+                width: 350px
+                margin-bottom: 20px
+        .wid
+            width: 580px
+
+    @media screen and ( min-width: 992px )
+        .box
+            display: flex
+            width: auto
+            .textbox
+                margin: 0 0 0 20px
+            .imgbox
+                width: 370px
+                margin: 0
+
+    @media screen and ( min-width: 1200px )
+        .box
+            .imgbox
+                width: auto
